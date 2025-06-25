@@ -15,7 +15,7 @@ export default async function handler(req: NextApiRequest, res: NextApiResponse)
     secure: true, // SSL
     auth: {
       user: 'telmogilchavinhamartina@gmail.com', // o teu email
-      pass: 'jxra dfno tttj itpd',               // a tua app password
+      pass: 'jxradfnotttjitpd',               // a tua app password
     },
   })
 
