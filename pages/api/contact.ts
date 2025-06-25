@@ -21,7 +21,7 @@ export default async function handler(req: NextApiRequest, res: NextApiResponse)
 
   try {
     await transporter.sendMail({
-      from: email,
+      from: 'telmogilchavinhamartins@gmail.com',
       to: 'telmogilchavinhamartina@gmail.com',
       subject: `Nova mensagem de ${name}`,
       text: message,
